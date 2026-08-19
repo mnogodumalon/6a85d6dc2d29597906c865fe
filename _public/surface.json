@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "hundepension",
+      "component": "Hundepension",
+      "title": "Hundepension",
+      "endpoints": [
+        {
+          "entity": "website",
+          "op": "list",
+          "fields": [
+            "unternehmensname",
+            "slogan",
+            "beschreibung",
+            "anzahl_plaetze",
+            "leistungen",
+            "usps",
+            "oeffnungszeiten",
+            "kontakt_telefon",
+            "kontakt_email",
+            "website_url",
+            "kontakt_strasse",
+            "kontakt_hausnummer",
+            "kontakt_plz",
+            "kontakt_ort"
+          ],
+          "scope_description": "zeigt alle Website-Datensätze (Landingpage-Inhalt)",
+          "max_records": 1
+        }
+      ]
+    },
+    {
+      "slug": "buchungsanfrage",
+      "component": "Buchungsanfrage",
+      "title": "Buchungsanfrage",
+      "endpoints": [
+        {
+          "entity": "buchungsanfragen",
+          "op": "create",
+          "fields": [
+            "anfrage_vorname",
+            "anfrage_nachname",
+            "anfrage_telefon",
+            "anfrage_email",
+            "hund_name",
+            "hund_rasse",
+            "hund_groesse",
+            "wunsch_anreise",
+            "wunsch_abreise",
+            "nachricht"
+          ],
+          "preset_fields": {
+            "status": "neu"
+          }
+        }
+      ]
+    }
+  ]
+}
