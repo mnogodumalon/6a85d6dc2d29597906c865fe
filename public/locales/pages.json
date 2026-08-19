@@ -1,0 +1,42 @@
+{
+  "pages": {
+    "en": {
+      "Abreise": "Departure",
+      "Abreisen heute": "Departures Today",
+      "Anfrage erfassen": "Log Request",
+      "Anreise": "Arrival",
+      "Anreisen & Abreisen heute": "Arrivals & Departures Today",
+      "Anreisen heute": "Arrivals Today",
+      "Aufenthalt angepasst": "Stay adjusted",
+      "Aufenthalt verschoben": "Stay rescheduled",
+      "Auschecken": "Check Out",
+      "Belegt heute": "Occupied Today",
+      "Bestätigen": "Confirm",
+      "Buchung anlegen": "Create Booking",
+      "Dieser Platz ist in diesem Zeitraum bereits belegt": "This spot is already occupied during this period",
+      "Einchecken": "Check In",
+      "Erste Buchung anlegen": "Create First Booking",
+      "Freie Plätze": "Available Spots",
+      "Heute keine An- oder Abreisen — geniess den ruhigen Tag!": "No arrivals or departures today — enjoy the quiet day!",
+      "Heute sind keine Hunde da — genieß die Ruhe!": "No dogs today — enjoy the peace and quiet!",
+      "Hund": "Dog",
+      "Keine neuen Anfragen — alles bearbeitet!": "No new requests — all handled!",
+      "Lege die erste Buchung an und sieh den Belegungsplan.": "Create the first booking and view the occupancy plan.",
+      "Neue Anfragen": "New Requests",
+      "Neue Buchung": "New Booking",
+      "Noch keine Aufenthalte": "No stays yet",
+      "Unbekannt": "Unknown",
+      "Unbekannter Hund": "Unknown Dog",
+      "hat eine Buchungsanfrage gestellt": "has submitted a booking request",
+      "neue Buchungsanfragen warten auf Bestätigung": "new booking requests are waiting for confirmation",
+      "{0} reist heute ab": "{0} departs today",
+      "{0} reist heute an": "{0} arrives today",
+      "{0} von 12 Plätzen belegt — ein ruhiger Tag.": "{0} of 12 spots occupied — a quiet day.",
+      "{0} — Anfrage abgelehnt": "{0} — request declined",
+      "{0} — Anfrage bestätigt": "{0} — request confirmed",
+      "{0} — ausgecheckt": "{0} — checked out",
+      "{0} — eingecheckt": "{0} — checked in"
+    }
+  },
+  "v": 1
+}

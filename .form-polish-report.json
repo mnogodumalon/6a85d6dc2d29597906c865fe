@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Besitzer": {
+      "placeholders_set": 9,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Name, Kontakt, Adresse). Keine Preisfelder, keine Mengen, keine applookup-Ketten mit Nummern. Nichts berechenbar."
+    },
+    "Hunde": {
+      "placeholders_set": 10,
+      "defaults_keys": ["impfstatus"],
+      "computed_keys": [],
+      "reason": "Tier-Stammdaten (Name, Rasse, Gewicht, Impf-Status). Kein Datumspaar für Dauerberechnung, keine Preisfelder, kein applookup auf Preis-Target. Impfstatus-Default auf 'Unbekannt' zur Reduzierung leerer Slots."
+    },
+    "Aufenthalte": {
+      "placeholders_set": 8,
+      "defaults_keys": ["status", "anreise", "abreise"],
+      "computed_keys": ["_aufenthalte_dauer_nächte"],
+      "reason": "Aufenthalts-Entity mit Datumspaar (anreise/abreise) und Preisfeld. Dauer-Nächte als virtueller computed-Key für Aggregat-Hinweis (dateDiff). Status auf 'Geplant' vorbelegt. Kein Gesamtpreis-Computed nötig, da Preis manuell eingegeben wird (kein applookup auf Zimmer-Tagespreis im Schema)."
+    },
+    "Buchungsanfragen": {
+      "placeholders_set": 11,
+      "defaults_keys": ["status", "wunsch_anreise", "wunsch_abreise"],
+      "computed_keys": ["_buchungsanfrage_dauer_nächte"],
+      "reason": "Anfragen-Entity mit Datumspaar (wunsch_anreise/wunsch_abreise) und Anfrage-Kontext. Dauer-Nächte als virtueller Hinweis (dateDiff). Status auf 'Neu' vorbelegt. Keine Preisfelder → kein Gesamtpreis-Computed."
+    },
+    "Pfoten-Porträt": {
+      "placeholders_set": 6,
+      "defaults_keys": ["erstellungsdatum"],
+      "computed_keys": [],
+      "reason": "Portfolio-Entity mit Textareas und Datum. Nur ein Datum (Erstellung), keine Paare. Erstellungsdatum auf 'today' gesetzt (logisch für Tracking). Keine Preise, keine Berechnungen."
+    },
+    "Website": {
+      "placeholders_set": 14,
+      "defaults_keys": ["anzahl_plaetze"],
+      "computed_keys": [],
+      "reason": "Konfigurationsseite mit Unternehmensinfo, Leistungen, Öffnungszeiten und Kontaktdaten. anzahl_plaetze auf 8 vorbelegt (passend zur Aufenthalte-Entity mit 8 Plätzen). Keine Berechnungen, keine Preis-Aggregationen."
+    }
+  }
+}

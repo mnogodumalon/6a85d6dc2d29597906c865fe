@@ -1,0 +1,72 @@
+{
+  "BesitzerDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Mustermann",
+    "telefon": "z. B. +49 123 456789",
+    "email": "z. B. max@example.com",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin",
+    "notizen": "Besonderheiten, Allergien, bevorzugte Kontaktzeit..."
+  },
+  "HundeDialog.tsx": {
+    "name": "z. B. Bella",
+    "rasse": "z. B. Labrador",
+    "geburtsdatum": "Wann ist der Hund geboren?",
+    "geschlecht": "z. B. Weiblich, Männlich",
+    "gewicht_kg": "z. B. 25",
+    "kastriert": "Ja oder Nein",
+    "impfstatus": "z. B. Vollständig, Teilweise",
+    "gesundheitshinweise": "Allergien, Medikamente, Verhaltensbesonderheiten...",
+    "tierarzt": "z. B. Dr. Schmidt, 030 1234567",
+    "besitzer": "Welcher Besitzer?"
+  },
+  "AufenthalteDialog.tsx": {
+    "hund": "Welcher Hund kommt?",
+    "besitzer": "Kontaktperson?",
+    "anreise": "Wann kommt der Hund an?",
+    "abreise": "Wann wird er abgeholt?",
+    "platznummer": "z. B. Platz 1–8",
+    "status": "z. B. Geplant, Anwesend",
+    "preis": "z. B. 75,00",
+    "notizen": "Spezielle Wünsche, Fütterung, Verhalten..."
+  },
+  "BuchungsanfragenDialog.tsx": {
+    "anfrage_vorname": "z. B. Anna",
+    "anfrage_nachname": "z. B. Schmidt",
+    "anfrage_telefon": "z. B. +49 987 654321",
+    "anfrage_email": "z. B. anna@example.com",
+    "hund_name": "z. B. Rex",
+    "hund_rasse": "z. B. Dackel",
+    "hund_groesse": "z. B. Klein, Mittel, Groß",
+    "wunsch_anreise": "Gewünschtes Anreisedatum?",
+    "wunsch_abreise": "Gewünschtes Abreisedatum?",
+    "nachricht": "Fragen, spezielle Wünsche, Notizen...",
+    "status": "z. B. Neu, Bestätigt"
+  },
+  "PfotenPortraetDialog.tsx": {
+    "besitzer": "Wem gehört das Porträt?",
+    "hund": "Welcher Hund?",
+    "titel": "z. B. 'Bella – Unsere liebste Reise'",
+    "widmung": "Persönliche Widmung für die Familie...",
+    "erlebnisse": "Lustige, rührende oder besondere Momente...",
+    "erstellungsdatum": "Wann wurde das Porträt erstellt?"
+  },
+  "WebsiteDialog.tsx": {
+    "unternehmensname": "z. B. 'Pfotenpension Müller'",
+    "slogan": "z. B. 'Dein Hund ist bei uns zu Hause'",
+    "beschreibung": "Kurze Beschreibung der Pension, Philosophie...",
+    "anzahl_plaetze": "z. B. 8",
+    "leistungen": "Eine Leistung pro Zeile (z. B. 'Tägliche Spaziergänge', 'Trainingsbetreuung'...)",
+    "usps": "Besonderheiten, die uns unterscheiden (eine pro Zeile)...",
+    "oeffnungszeiten": "Eine Zeile pro Tag (z. B. 'Mo–Fr: 08:00–18:00, Sa 10:00–14:00')...",
+    "kontakt_telefon": "z. B. +49 123 987654",
+    "kontakt_email": "z. B. info@pfotenpension.de",
+    "website_url": "z. B. https://pfotenpension.de",
+    "kontakt_strasse": "z. B. Hundestraße",
+    "kontakt_hausnummer": "z. B. 99",
+    "kontakt_plz": "z. B. 10115",
+    "kontakt_ort": "z. B. Berlin"
+  }
+}
